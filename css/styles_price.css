@@ -262,7 +262,7 @@ footer a{
 div.index-content__item p span{
     font-weight: bold;
 }
-/*        Стили для модальных окон          */
+/*        РЎС‚РёР»Рё РґР»СЏ РјРѕРґР°Р»СЊРЅС‹С… РѕРєРѕРЅ          */
 #login,
 #inputs,
 #actions{
@@ -352,6 +352,10 @@ div.index-content__item p span{
 .Window-login a{
     color: #333;
 }
+@media all and (-webkit-min-device-pixel-ratio:0) {
+   #login, #inputs, #actions {
+        text-align: left;
+   }
 @media screen and (max-width:1024px),only screen and (max-device-width:1024px){
 body{
     width: 1014px;
